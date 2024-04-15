@@ -6,7 +6,7 @@ A Simple Prometheus Exporter that checks the status of an HTTP Endpoint and repo
 Docker Example:
 
 ```
-docker run -d -v /log:/log ghcr.io/tech1ndex/heartbeat-exporter:<tag> -u "https://example.com"
+docker run -d ghcr.io/tech1ndex/heartbeat-exporter:<tag> -u "https://example.com"
 ```
 
 A `--url` will need to be passed to Docker run/compose, the script will accept as many as required.
